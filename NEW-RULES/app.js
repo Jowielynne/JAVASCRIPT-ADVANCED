@@ -22,7 +22,7 @@ for (let i = 0; i < cars.length; i++) {
 }
 
 // FOR-OFF LOOP.
-for(let car of cars){
+for (let car of cars) {
     console.log(car)
 }
 
