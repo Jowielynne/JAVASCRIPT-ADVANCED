@@ -9,6 +9,7 @@ fetch('./birthday.json')
             // met backticks zet je variablen IN je text.
             profileCard += `
                     <article class = "profileStyling">
+                    <img src="" alt="">
                     <h2>${profile.name}</h2>
                      <h3>${profile.age}</h3>
                     </article>

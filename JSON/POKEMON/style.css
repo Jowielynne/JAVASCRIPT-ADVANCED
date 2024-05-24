@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  margin-top: 250px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 10px;
+  justify-content: center;
+  background-color: rgba(176, 80, 80, 0.167);
+  border: black 1px dotted;
+}
+
+img {
+  height: 150px;
+}

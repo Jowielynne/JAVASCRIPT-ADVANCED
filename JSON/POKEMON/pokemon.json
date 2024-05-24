@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Bulbasaur",
+    "img": "./img/bulbasaur.png"
+  },
+  {
+    "name": "Charizard",
+    "img": "./img/charizard.png"
+  },
+  {
+    "name": "Squirtle",
+    "img": "./img/squirtle.png"
+  },
+  {
+    "name": "Butterfree",
+    "img": "./img/butterfree.png"
+  },
+  {
+    "name": "Pidgey",
+    "img": "./img/pidgey.png"
+  },
+  {
+    "name": "Spearow",
+    "img": "./img/spearrow.png"
+  },
+  {
+    "name": "Pikachu",
+    "img": "./img/pikachu.png"
+  },
+  {
+    "name": "Vulpix",
+    "img": "./img/vulpix.png"
+  },
+  {
+    "name": "Jigglypuff",
+    "img": "./img/jigglypuff.png"
+  },
+  {
+    "name": "Oddish",
+    "img": "./img/oddish.png"
+  },
+  {
+    "name": "Meowth",
+    "img": "./img/meowth.png"
+  },
+  {
+    "name": "Psyduck",
+    "img": "./img/psyduck.png"
+  },
+  {
+    "name": "Machop",
+    "img": "./img/machop.png"
+  },
+  {
+    "name": "Magneton",
+    "img": "./img/magneton.png"
+  },
+  {
+    "name": "Haunter",
+    "img": "./img/haunter.png"
+  },
+  {
+    "name": "Cubone",
+    "img": "./img/cubone.png"
+  },
+  {
+    "name": "Snorlax",
+    "img": "./img/snorlax.png"
+  },
+  {
+    "name": "Chikorita",
+    "img": "./img/chikorita.png"
+  }
+]
