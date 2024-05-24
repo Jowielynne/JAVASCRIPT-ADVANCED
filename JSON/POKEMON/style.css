@@ -4,12 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 
 section {
   display: flex;
   flex-direction: row;
   overflow: scroll;
-  margin-top: 250px;
+  margin-top: 90px;
 }
 
 article {
@@ -18,7 +24,7 @@ article {
   padding: 30px;
   margin: 10px;
   justify-content: center;
-  background-color: rgba(176, 80, 80, 0.167);
+  background-color: rgb(255, 255, 255);
   border: black 1px dotted;
 }
 
