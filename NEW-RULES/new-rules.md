@@ -43,3 +43,11 @@ for(let car of cars){
 ### EXPLANATION: 
 FOR-LOOP = Oude manier van een item opvragen in een array.   
 FOR-OFF LOOP = Nieuwe manier van een item opvragen in een array.
+
+
+### JSON:
+"" = string.
+`` = Zet je variabelen in je text. (dat zijn backticks)
+
+fetch('./cars.json')
+    .then((response) => response.json())
