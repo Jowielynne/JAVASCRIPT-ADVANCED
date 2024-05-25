@@ -1,32 +1,32 @@
 [
     {
-        "picture": "pfp",
-        "name": "Someone's Name 1",
+        "picture": "./img/profile.jpg",
+        "name": "Goofy ass dog.",
         "age": "1"
     },
     {
-        "picture": "pfp",
-        "name": "Someone's Name 2 ",
+        "picture": "./img/profile.jpg",
+        "name": "Goofy ass dog.",
         "age": "2"
     },
     {
-        "picture": "pfp",
-        "name": "Someone's Name 3",
+        "picture": "./img/profile.jpg",
+        "name": "Goofy ass dog.",
         "age": "3"
     },
     {
-        "picture": "pfp",
-        "name": "Someone's Name 4",
+        "picture": "./img/profile.jpg",
+        "name": "Goofy ass dog.",
         "age": "4"
     },
     {
-        "picture": "pfp",
-        "name": "Someone's Name 5",
+        "picture": "./img/profile.jpg",
+        "name": "Goofy ass dog.",
         "age": "5"
     },
     {
-        "picture": "pfp",
-        "name": "Someone's Name 6",
+        "picture": "./img/profile.jpg",
+        "name": "Goofy ass dog.",
         "age": "6"
     }
 ]

@@ -1,20 +1,30 @@
-let output = document.querySelector('.birthday__profiles')
-let profileCard = ''
+let output = document.querySelector('.birthday__profiles');
+let clearButton = document.querySelector('.clear-btn');
+let profileCard = '';
 
 fetch('./birthday.json')
     .then((response) => response.json())
     .then((profiles) => {
-        // LOOP DOOR ARRAY MET OBJECTEN.
+        document.querySelector('h1').textContent = `${profiles.length} Birthdays Today`;
+
+        // Loop door array met objecten
         for (let profile of profiles) {
-            // met backticks zet je variablen IN je text.
+            // Met backticks zet je variabelen IN je tekst
             profileCard += `
-                    <article class = "profileStyling">
-                    <img src="" alt="">
-                    <h2>${profile.name}</h2>
-                     <h3>${profile.age}</h3>
-                    </article>
-                    `;
+                <article class="profileStyling">
+                    <img src="${profile.picture}" alt="${profile.name}">
+                    <div>
+                        <h2>${profile.name}</h2>
+                        <h3>${profile.age} years old</h3>
+                    </div>
+                </article>
+            `;
         }
 
-        output.innerHTML = profileCard
-    })
+        output.innerHTML = profileCard;
+    });
+
+clearButton.addEventListener('click', () => {
+    output.innerHTML = '';
+    document.querySelector('h1').textContent = '0 Birthdays Today';
+});
