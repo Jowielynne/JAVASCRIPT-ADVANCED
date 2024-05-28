@@ -2,11 +2,11 @@ let output = document.querySelector('.output');
 let out = '';
 
 const person = {
-    name: 'a',
-    age: 'a',
-    dob: 'a',
-    gender: 'a',
-    status: 'a',
+    name: 'Kanel',
+    age: '19',
+    dob: '12th June',
+    gender: 'Male',
+    status: 'Alive',
     hobbies: [ 'help' , '2', '3', '4' ],
     changeName: function (newName){
        this.name = newName
