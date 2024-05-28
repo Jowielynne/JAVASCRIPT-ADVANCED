@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 let output = document.querySelector('.pokemon')
+=======
+let output = document.querySelector('.pokemon');
+>>>>>>> Stashed changes
 let pokemonBreed = ''
 
 fetch('./pokemon.json')
