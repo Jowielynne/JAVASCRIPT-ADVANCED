@@ -1,7 +1,7 @@
 let output = document.querySelector('.output');
 let out = '';
 
-const book = {
+const product = {
     title: 'Harry Potter and the Philisopher\'s stone.',
     author: 'J.K. Rowling',
     publish: 'Bloomsbury (UK) Scholastic (US)',
