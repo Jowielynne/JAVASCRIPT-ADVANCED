@@ -12,9 +12,6 @@ const person = {
        this.name = newName
     }
 
-    changeStatus: function(){
-        if (this.status ===)
-    }
 }
 
 
