@@ -1,16 +1,21 @@
 let output = document.querySelector('.output');
-let characterZ = ''
+let countryCount = ''
 
 
-fetch(`https://restcountries.com/v3.1/all/`)
+fetch(` https://restcountries.com/v3.1/all`)
     .then((response) => response.json())
-    .then((characters) => {
-
-        for (let character of characters.items) {
-            
+    .then((countries) => {
+        console.log(countries)
+        for (let country of countries) {
+        console.log(country);
+        countryCount += `
+        <article class = "countryStyling">
+        
+        </article>
+        `
         }
 
 
 
-        output.innerHTML = characterZ
+        output.innerHTML = countryCount
     });
