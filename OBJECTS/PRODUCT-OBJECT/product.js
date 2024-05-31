@@ -8,7 +8,7 @@ const product = {
 
 output.innerHTML = `
 <div class = "productStyling">
-<h1>${product.name}</h1>
+<p>${product.name}</p>
 <img src = "${product.img}" alt = "${product.name}">
 </div>
 `;
